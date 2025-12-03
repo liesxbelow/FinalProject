@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Amal Yousef
+12/02/2025
+CIS-165-300-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Mally’s Delicious Desserts</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mally’s Delicious Desserts</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <h1>Delicious Desserts Made Fresh</h1>
+            <p>Indulge in cakes, cookies, and cupcakes — baked with love.</p>
+            <a href="desserts.html" class="btn">Browse Desserts</a>
+        </div>
+    </section>
+
+    <section class="deal">
+        <h2>Deal of the Week</h2>
+        <p>Get **10% off** any cupcake dozen this week only!</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Owner</h2>
+        <p>
+            Welcome to Mally’s Delicious Desserts! As a passionate home baker, 
+            I create sweet treats for all ages to enjoy. Every dessert is made 
+            from scratch and crafted with care. My mission is to bring joy 
+            through flavors that leave you wanting more.
+        </p>
+    </section>
+
+    <section id="desserts" class="desserts">
+        <h2>Our Desserts</h2>
+        <div class="dessert-grid">
+
+            <div class="dessert-card">
+                <img src="https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg" alt="Cake">
+                <h3>Signature Cake</h3>
+                <p>Rich, moist, and perfect for celebrations. $25+</p>
+            </div>
+
+            <div class="dessert-card">
+                <img src="https://cdn.pixabay.com/photo/2024/11/24/15/08/chocolate-chip-9221060_1280.jpg" alt="Cookies">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Golden, crispy, and gooey inside. $5 per pack</p>
+            </div>
+
+            <div class="dessert-card">
+                <img src="https://cdn.pixabay.com/photo/2020/05/01/09/13/cupcakes-5116009_1280.jpg" alt="Cupcakes">
+                <h3>Vanilla Cupcakes</h3>
+                <p>Fluffy cupcakes with creamy frosting. $12 per dozen</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Dessert Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://cdn.pixabay.com/photo/2021/05/28/07/36/cake-6290101_1280.jpg" width="200" height="150">
+            <img src="https://cdn.pixabay.com/photo/2019/03/22/15/30/cake-balls-4073497_1280.jpg" width="200" height="150">
+            <img src="https://cdn.pixabay.com/photo/2017/03/15/19/18/tartlet-2147173_1280.jpg" width="200" height="150" >
+            <img src="https://cdn.pixabay.com/photo/2023/05/07/20/36/macaroon-7977086_1280.jpg" width="200" height="150">
+        </div>
+    </section>
+
+  
+    <footer id="contact" class="footer">
+        <h2>Contact</h2>
+        <p>Email: mallydesserts@gmail.com</p>
+        <p>Pickup Address: 5555 Dessert Lane, Sweet City</p>
+        <p>For special orders, message us anytime!</p>
+    </footer>
+
+</body>
+</html>
