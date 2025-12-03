@@ -1,0 +1,140 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+body {
+    background: #000; /* black */
+    color: cyan;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    border-bottom: 2px solid cyan;
+}
+
+.logo {
+    color: cyan;
+    font-size: 22px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: cyan;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: url('https://ibb.co/pjP1ryy4')
+        center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn {
+    display: inline-block;
+    background: cyan;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* DEAL OF THE WEEK */
+.deal {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    border-top: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+}
+
+/* ABOUT */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background: #000;
+}
+
+/* DESSER TS */
+.dessert-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.dessert-card {
+    background: #111;
+    padding: 15px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dessert-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* GALLERY */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border: 2px solid cyan;
+    border-radius: 8px;
+}
+
+/* FOOTER / CONTACT */
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    border-top: 2px solid cyan;
+}
